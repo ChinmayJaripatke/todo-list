@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg, #7579e7, #9ab3f5);
+    color: rgb(15, 15, 15);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+form{
+    text-align: center;
+}
+
+.user-name{
+    margin-left: 3px;
+    margin-top: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}   
+
+.user{
+    padding-top: 80px;
+    font-size: 250%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+form input, form button{
+    font-size: 150%;
+    margin-top: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+form button:hover{
+    color:rgb(13, 92, 211);
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list{
+    min-width: 30%;
+    list-style: none;
+    padding-top: 30px;
+}
+
+.todo{
+    background: white;
+    margin: 1rem;
+    display: flex;
+    font-size: 30px;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.todo li{
+    flex: 1;
+}
+
+.completed-btn{
+    margin-right: 10px;
+    background: rgb(5, 243, 124);
+}
+
+.trash-btn{
+    margin-right: 3px;
+    background: rgb(173, 201, 13);
+}
+
+.completed-btn:hover{
+    background-color: rgb(22, 131, 22);
+    cursor: pointer;
+}
+
+.trash-btn:hover{
+    background-color: rgb(247, 29, 29);
+    cursor: pointer;
+}
+
+.todo-item{
+    padding-left: 12px;
+}
+
+.fa-trash, .fa-check{
+    pointer-events: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(35deg);
+    opacity: 0;
+}
+
+.select{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.filter-todo{
+    padding: 0.5rem;
+}
+
+
